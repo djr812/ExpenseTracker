@@ -177,7 +177,7 @@ def getData (sql):
     connectionString = f'Driver={{ODBC Driver 18 for SQL Server}};' \
                          'Server=tcp:djr040.database.windows.net,1433;' \
                          'Database=Exp_Tracker;' \
-                         'Uid=djr040;Pwd=MySQLPass73;' \
+                         'Uid=djr040;Pwd=;' \
                          'Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
     
     # Set connection retries before giving up
@@ -246,7 +246,7 @@ def setData (sql):
     connectionString = f'Driver={{ODBC Driver 18 for SQL Server}};' \
                          'Server=tcp:djr040.database.windows.net,1433;' \
                          'Database=Exp_Tracker;' \
-                         'Uid=djr040;Pwd=MySQLPass73;' \
+                         'Uid=djr040;Pwd=;' \
                          'Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
         
     # Set connection retries before giving up
